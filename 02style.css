@@ -1,0 +1,44 @@
+ * {
+            padding: 0;
+            margin: 0;
+            font-family: cursive;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .head {
+            display: flex;
+            justify-content: space-between;
+            background: #0ef;
+            color: antiquewhite;
+            padding: 14px;
+        }
+        .head h1 {
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .navigate  {
+            word-spacing: 10px;
+        }
+        .navigate a {
+            color: blueviolet;
+            text-decoration: none;
+
+        }
+
+        .hero {
+            background: url(portfolio.jpg);
+            height: 22rem;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-width: 2000px;
+            object-fit: cover;
+        }
+
+        .hero p {
+            position: relative;
+            top: 120px;font-size: 22px;
+            left: 230px;
+            margin-bottom: 120px;
+            color: #0ef;
+        }
